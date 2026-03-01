@@ -1,0 +1,40 @@
+#navbar{
+    background-color: none;
+    border-bottom: 1px solid white;
+    padding: 0px;
+    .navbar-brand{
+      width: 70px;
+      height: 75px;
+      border-radius: 100%;
+      img{
+        width: 100%;
+        height: 100%;
+      }:hover{
+        transform: rotate(360deg);
+        transition: 2s;
+      }
+    }
+    .nav-link{
+        color: white;
+    }
+   .nav-icon{
+    font-size: 2rem;
+   }
+   .nav-item{
+    padding: 0px 1rem;
+   }
+   .nav-item-text{
+    font-size: 1.2rem;
+   }
+   .facebook:hover, .instagram:hover, .linkdin:hover{
+      transform: rotate(360deg);
+      transition: 1.5s;
+      padding: 0.5rem;
+      color: #ef33ef81;
+   }
+   .nav-item-text:hover{
+    transform: scalex(1.2);
+    transition: 0.5s;
+    padding: 0.5rem;
+   }
+}

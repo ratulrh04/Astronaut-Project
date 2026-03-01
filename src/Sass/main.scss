@@ -1,0 +1,19 @@
+// google fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+// sass cdn link import here
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// subpages import here
+@import "../Sass/Hero";
+@import "../Sass/Nav";
+@import "../Sass/Skill";
+@import "../Sass/Project";
+@import "../Sass/Contact";
+@import "../Sass/Footer";
+
+
+body{
+  font-family: "Montserrat", sans-serif;
+  background-color: #010818;
+}

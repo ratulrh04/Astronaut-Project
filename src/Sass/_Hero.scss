@@ -1,0 +1,88 @@
+// Background image import here
+
+#hero-wrapper{
+    background: url(../../public/image/Combo-hero-sec.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 650px;
+    max-height: auto;
+}
+
+
+.astronaut-img-wrapper{
+    .astronaut-img{
+        width: 150px;
+        height: 220px;
+        border-radius: 100%;
+        transform: translate(30px,40px);
+        margin-top: 180px;
+        animation: astronaut ease 2s alternate infinite;
+    }
+}
+
+@keyframes astronaut {
+    from{
+      transform: translateY(0px);
+    }
+    to{
+     transform: translateY(70px);
+    }
+}
+
+.contant-wrapper{
+    margin-top: 6rem;
+    .heading{
+        padding:10px;
+        background-color: #00000062;
+        width: 14.9rem;
+        display: block;
+        span{
+            font-size: 18px;
+            word-spacing: 2px;
+          color: white;
+        }
+    }
+    h1{
+         margin-top: 1rem;
+        color: white;
+    }
+    p{   
+        margin-top: 3rem;
+        color: white;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .astronaut-img-wrapper{
+        width: 100%;
+        height: auto;
+        .astronaut-img{
+         margin-top: -53px;
+         transform: translate(182px, 18px);
+         animation: none;
+        }
+    }
+  }
+  @media (min-width: 250px) and (max-width: 450px) {
+    .astronaut-img-wrapper{
+        width: 100%;
+        height: auto;
+        .astronaut-img{
+         margin-top: -53px;
+         transform: translate(120px, 18px);
+        }
+    }
+  }
+  @media (min-width: 250px) and (max-width: 450px) {
+    .astronaut-img-wrapper{
+        width: 100%;
+        height: auto;
+        .astronaut-img{
+         margin-top: -53px;
+         transform: translate(143px, 18px);
+        }
+    }
+  }

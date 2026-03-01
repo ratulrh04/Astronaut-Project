@@ -1,0 +1,117 @@
+
+// subscribe section all css writing here
+#subscribe{
+  padding-top: 7rem;
+  .subscribe-row{
+     background-color: white;
+     width: 100%;
+     height: 180px;
+     border-radius: 50px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0px 100px;
+     .email-input-group{
+      position: relative;
+      overflow: hidden;
+       .email-input{
+          width: 30vw;
+          object-fit: contain;
+          padding: 15px 13px;
+          outline: none;
+          border: 1px solid #781291 ;
+          border-radius: 10px;
+          border-color: #781291;
+       }
+       .email-btn{
+        top: 6px;
+        right: 70px;
+        position: absolute;
+        padding: 10px 13px;
+        border-radius: 10px ;
+        border:none;
+        background:linear-gradient(50deg,  #781291, #1d0347);
+        width: 13vw;
+        span{
+          font-style: italic;
+          font-weight: bold;
+          color: white;
+        }
+       }
+     }
+  }
+  @media (min-width: 200px) and (max-width: 768px) {
+    .subscribe-heading{
+      text-align: center;
+    }
+    .subscribe-inputs{
+      text-align: center;
+    }
+  }
+  // @media (min-width: 1400px) and (max-width: 2000px) {
+  //   .email-input-group{
+  //     .email-btn{
+  //       width: 5vw;
+  //     }
+  //   }
+  // }
+ .subscribe-colum{
+
+     .subscribe-content{
+       h1{
+         text-transform: uppercase;
+         font-style: italic;
+         font-weight: bold;
+       }
+     }
+   
+ }
+}
+
+// footer section all css writing here
+#footer{
+ 
+    background: linear-gradient(40deg, #09152e, #010818);
+    height: 645px;
+}
+.col-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.left-footer-content{
+    margin-top: 200px;
+  h1{
+    font-style: italic;
+    text-transform: uppercase;
+    color: white;
+    padding: 20px 20px;
+  }
+}
+.right-footer-content{
+    margin-top: 200px;
+  .icon-wrapper{
+    padding: 20px 20px;
+    .fb-icon{
+        font-size: 2.5rem;
+        color: white;
+        margin: 10px 5px;
+    }
+    .linkdin-icon{
+        font-size: 2.5rem;
+        color: white;
+        margin: 10px 5px;
+    }
+    .insta-icon{
+        font-size: 2.5rem;
+        color: white;
+        margin: 10px 5px;
+    }
+  }
+  .copy-right{
+    color: white;
+    padding-bottom: 2rem;
+  }
+}
+
+
+
