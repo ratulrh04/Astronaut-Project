@@ -1,5 +1,6 @@
 import { Typewriter } from 'react-simple-typewriter'
 import Nav from "./Nav";
+import astronaut from "../assets/astronaut-man.png"
 const Hero = () => {
 
     return (
@@ -31,7 +32,11 @@ const Hero = () => {
                     </div>
                     <div className="col-md-6">
                         <div className="astronaut-img-wrapper">
-                            <img className="astronaut-img" src="../../public/image/astronaut-removebg-preview 1.png" alt="" />
+                         <img
+                            className="astronaut-img"
+                            src={astronaut}
+                            alt="Astronaut"
+                            />
                         </div>
                     </div>
                 </div>

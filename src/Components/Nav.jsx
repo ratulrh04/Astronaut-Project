@@ -3,6 +3,7 @@ import { CiFacebook } from "react-icons/ci";
 import { CiLinkedin } from "react-icons/ci";
 import { FaInstagram } from "react-icons/fa";
 import { BrowserRouter } from 'react-router-dom';
+import navBrand from "../assets/purple-planate-removebg-preview.png"
 import { HashLink as Link } from 'react-router-hash-link';
 
 
@@ -13,7 +14,7 @@ const Nav = () => {
       <nav id="navbar" className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            <img src="../../public/image/purple-planate-removebg-preview.png" alt="logo" />
+            <img src={navBrand} />
           </Link>
           <button
             className="navbar-toggler"
